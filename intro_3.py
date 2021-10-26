@@ -6,8 +6,8 @@ keff_in = (line[96:115])
 lst = []
 for i in keff_in:
     lst.append(i[34:40])
-type(lst)
-
+keff_lst = [float(i) for i in lst] ## This method is known as list comperhension.
+print(test_list)
 #output = open("sss_log", "w")
 #t_fibo = (0,1)
 #for n in range(20):
